@@ -1832,4 +1832,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
-
+	
+/* Contact Form Style */
+.contactform {
+    @include 'contactformstyle.css';
+}
